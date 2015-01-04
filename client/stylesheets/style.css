@@ -1,0 +1,24 @@
+.navbar {
+    margin-bottom: 8px;
+}
+
+.camp {
+  *zoom: 1;
+  position: relative;
+  opacity: 1; }
+  .camp:before, .camp:after {
+    content: "";
+    display: table; }
+  .camp:after {
+    clear: both; }
+  .camp .camp-content {
+    float: left; }
+    .camp .camp-content h3 {
+      margin: 0;
+      line-height: 1.4;
+      font-size: 18px; }
+      .camp .camp-content h3 a {
+        display: inline-block;
+        margin-right: 5px; }
+    .camp .camp-content p {
+      margin: 0; }
