@@ -12,3 +12,10 @@ Meteor packages for this project
 meteor add mizzao:bootstrap-3
 meteor add underscore
 ```
+
+Meteor configuration for this project
+=====================================
+
+```shell
+meteor remove autopublish
+```
