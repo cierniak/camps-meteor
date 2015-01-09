@@ -12,6 +12,9 @@ Meteor packages for this project
 meteor add mizzao:bootstrap-3
 meteor add underscore
 meteor add iron:router
+meteor add sacha:spin
+meteor add ian:accounts-ui-bootstrap-3
+meteor add accounts-password
 ```
 
 Meteor configuration for this project
