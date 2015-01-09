@@ -11,6 +11,7 @@ Meteor packages for this project
 ```shell
 meteor add mizzao:bootstrap-3
 meteor add underscore
+meteor add iron:router
 ```
 
 Meteor configuration for this project
