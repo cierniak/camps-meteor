@@ -22,4 +22,5 @@ Meteor configuration for this project
 
 ```shell
 meteor remove autopublish
+meteor remove insecure
 ```
