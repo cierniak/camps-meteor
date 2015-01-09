@@ -7,7 +7,11 @@ Template.campSubmit.events({
             name: $(e.target).find('[name=name]').val()
         };
 
-        camp._id = Camps.insert(camp);
-        Router.go('campPage', camp);
+        Meteor.call('campInsert', camp, function(error, result) {
+            // display the error to the user and abort
+            if (error)
+                return alert(error.reason);
+            Router.go('campPage', {_id: result._id});
+        });
     }
 });
