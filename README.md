@@ -15,6 +15,7 @@ meteor add iron:router
 meteor add sacha:spin
 meteor add ian:accounts-ui-bootstrap-3
 meteor add accounts-password
+meteor add audit-argument-checks
 ```
 
 Meteor configuration for this project
