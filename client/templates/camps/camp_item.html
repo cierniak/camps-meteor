@@ -3,6 +3,10 @@
         <div class="camp-content">
             <!-- TODO: Handle camps without URLs -->
             <h3><a href="{{url}}">{{name}}</a></h3>
+            <p>
+                submitted by {{author}}
+                {{#if ownPost}}<a href="{{pathFor 'campEdit'}}">Edit</a>{{/if}}
+            </p>
         </div>
         <a href="{{pathFor 'campPage'}}" class="details btn btn-default">Details</a>
     </div>
